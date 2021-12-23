@@ -1,0 +1,13 @@
+[package]
+name = "rust-lambda-extension-testing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lambda_extension = { git = "https://github.com/awslabs/aws-lambda-rust-runtime", package = "lambda_extension" }
+log = "0.4.14"
+simple_logger = "1.16.0"
+tokio = { version = "1.15.0", features = ["full"] }
+tracing = "0.1.29"
