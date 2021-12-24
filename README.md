@@ -3,5 +3,4 @@
 ## Steps
 
 * To create a lambda package, run `make package`
-* To create a new lambda layer version, run `make upload` (this does not create the lambda layer, you must create the
-  initial layer yourself).
+* To create a new lambda layer version, run `make upload`. This will create the layer if it does not already exist.
